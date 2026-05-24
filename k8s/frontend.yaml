@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: saadpatel2400/frontend:latest
+          image: saadpatel2400/frontend:42f6d97a4341288b8a428258fa8a15bbbc65b180
           imagePullPolicy: Always
           ports:
             - containerPort: 80
